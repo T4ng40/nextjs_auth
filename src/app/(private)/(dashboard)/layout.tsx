@@ -1,6 +1,6 @@
 import { AppBar } from './_components/AppBar'
 
-export default function DashboardLayout({
+export default async function DashboardLayout({
   children
 }: Readonly<{
   children: React.ReactNode
